@@ -6,7 +6,8 @@
  * 
  * NOTE:
  * Make sure that you don't run too many LEDs off 
- * of 5v internal power. 
+ * of the Arduino 5v internal power pin. Use a power
+ * supply in that case instead. 
  * 
  * Also remember to uncomment the strip that you are 
  * using below.
@@ -14,7 +15,7 @@
 
 #include <FastLED.h>
 
-//LED and Clock Pin Digitil IO Ports
+//LED and Clock Pin Digital IO Ports
 #define LED_PIN     11
 #define CLOCK_PIN   13
 
@@ -37,8 +38,7 @@ void setup() {,
     //Declare LED strip
     /*
      * NOTE:
-     * Be sure to uncomment the LED strip that you are using.
-     * Also make sure that you have a RGB strip :)
+     * Be sure to uncomment the RGB LED strip that you are using.
      */
 
      
@@ -62,9 +62,11 @@ void loop() {
       //Send RGB value to strip
       leds[i] = CRGB (230*brightMod, g*brightMod, 0);
 
-      //Show light
-      FastLED.show();
+      
     }
+    //Show light
+    FastLED.show();
+
     //Delay
     delay(random(100));
 }
