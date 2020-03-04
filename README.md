@@ -14,5 +14,5 @@ Soldering iron
 
 # Schematics
 
-Inline-style: ![alt text](/images/fritzing.png "Schematics")
+![alt text](/images/fritzing.png "Schematics")
 
