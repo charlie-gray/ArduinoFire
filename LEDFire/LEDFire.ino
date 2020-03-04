@@ -33,7 +33,7 @@ int g;
 CRGB leds[NUM_LEDS];
 
 //Setup
-void setup() {,
+void setup() {
 
     //Declare LED strip
     /*
