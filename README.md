@@ -19,6 +19,6 @@ Soldering iron
 
 # Schematics
 
-
+Special thanks to Zach Wanger for helping create the updated schematic.
 ![alt text](/images/fritzing.png "Schematics")
 
