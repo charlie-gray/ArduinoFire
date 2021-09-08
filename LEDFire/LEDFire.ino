@@ -1,5 +1,5 @@
 /* LED Strip Fire (2020)
- * Made with <3 by charguyy :)
+ * Made with <3 by Charlie Gray :)
  * 
  * REQUIREMENTS:
  * Make sure that the FastLED lib is installed
